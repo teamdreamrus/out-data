@@ -1,0 +1,5 @@
+{
+    "block": ".main__content .serp-item",
+    "link": ".organic__title-wrapper > a",
+    "domain": ".Organic-Path b"
+}
