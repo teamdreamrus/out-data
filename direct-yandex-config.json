@@ -1,5 +1,19 @@
 {
-    "block": ".main__content .serp-item",
-    "link": ".organic__title-wrapper > a",
-    "domain": ".Organic-Path b"
+    "url": "https://yandex.ru",
+    "geoPage":{
+      "openSelector": "a.geolink",
+      "city": "Новосиб",
+      "input": ".input__control.input__input",
+      "submit": ".popup__items li"
+    },
+    "searchPage":{
+      "input": ".input__box input[aria-label=\"Запрос\"]",
+      "submit": "form[role=\"search\"] button[type=\"submit\"]",
+    },
+    "resultPage":{
+      "block": ".main__content .serp-item > .organic",
+      "link": ".organic__title-wrapper > a",
+      "domain": ".Organic-Path b"
+    },
+    "handleVoice": "voice-search-popup__cross"
 }
