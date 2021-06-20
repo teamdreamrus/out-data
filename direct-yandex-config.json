@@ -8,7 +8,7 @@
     },
     "searchPage":{
       "input": ".input__box input[aria-label=\"Запрос\"]",
-      "submit": "form[role=\"search\"] button[type=\"submit\"]",
+      "submit": "form[role=\"search\"] button[type=\"submit\"]"
     },
     "resultPage":{
       "block": ".main__content .serp-item > .organic",
